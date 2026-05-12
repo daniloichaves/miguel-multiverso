@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Miguel "Multiverso" Chagas dos Santos | Atleta de Jiu-Jitsu Brasileiro</title>
-<meta name="description" content="Miguel Multiverso - Atleta de 14 anos do Jiu-Jitsu Brasileiro. Patrocine um talento em ascensão." />
+<meta name="description" content="Miguel Multiverso - Atleta de 12 anos do Jiu-Jitsu Brasileiro, faixa cinza. Patrocine um talento em ascensão." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -763,12 +763,12 @@
 
   .goals-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
   }
 
   .goal-card {
-    padding: 2rem;
+    padding: 1.4rem 1.2rem;
     background: var(--bg-secondary);
     border-radius: 16px;
     border: 1px solid var(--border);
@@ -782,17 +782,27 @@
 
   .goal-number {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 3rem;
+    font-size: 2.4rem;
     background: linear-gradient(135deg, var(--accent-red), var(--accent-gold));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     line-height: 1;
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
   }
 
-  .goal-card h4 { font-size: 1.2rem; margin-bottom: 0.5rem; }
-  .goal-card p { color: var(--text-secondary); font-size: 0.95rem; }
+  .goal-card h4 { font-size: 1.05rem; margin-bottom: 0.4rem; line-height: 1.25; }
+  .goal-card p { color: var(--text-secondary); font-size: 0.85rem; line-height: 1.45; }
+
+  @media (max-width: 1100px) {
+    .goals-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 700px) {
+    .goals-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 460px) {
+    .goals-grid { grid-template-columns: 1fr; }
+  }
 
   /* ====== Why Sponsor ====== */
   .sponsor-benefits {
@@ -1184,7 +1194,7 @@
   <div class="hero-content">
     <div class="hero-text">
       <div class="hero-badge">
-        <span>●</span> Atleta em ascensão · 14 anos
+        <span>●</span> Atleta em ascensão · 12 anos
       </div>
       <div class="hero-pretitle">JIU-JITSU BRASILEIRO</div>
       <h1>
@@ -1197,16 +1207,16 @@
       </p>
       <div class="hero-stats">
         <div class="stat">
-          <div class="stat-value">14</div>
+          <div class="stat-value">12</div>
           <div class="stat-label">Anos</div>
         </div>
         <div class="stat">
-          <div class="stat-value">10+</div>
-          <div class="stat-label">Conquistas</div>
+          <div class="stat-value">Cinza</div>
+          <div class="stat-label">Faixa atual</div>
         </div>
         <div class="stat">
-          <div class="stat-value">5+</div>
-          <div class="stat-label">Anos de treino</div>
+          <div class="stat-value">1</div>
+          <div class="stat-label">Ano de treino</div>
         </div>
       </div>
       <div class="hero-cta-group">
@@ -1263,7 +1273,7 @@
         <span class="section-eyebrow">Sobre o atleta</span>
         <h3>Um talento que se adapta a qualquer cenário</h3>
         <p>
-          Miguel "Multiverso" Chagas dos Santos é um jovem atleta de 14 anos dedicado ao Jiu-Jitsu Brasileiro, esporte que iniciou ainda na infância com o incentivo e acompanhamento constante de seu pai.
+          Miguel "Multiverso" Chagas dos Santos (nascido em 10/01/2014) é um jovem atleta de 12 anos dedicado ao Jiu-Jitsu Brasileiro, esporte que iniciou há 1 ano com o incentivo e acompanhamento constante de seu pai. Atualmente compete na faixa cinza.
         </p>
         <p>
           Desde cedo, Miguel demonstra características que o diferenciam: <strong style="color:var(--text-primary)">disciplina, foco, respeito</strong> e uma mentalidade altamente competitiva. Sua rotina é equilibrada entre estudos e treinos intensivos, sempre buscando evolução técnica e pessoal.
@@ -1335,7 +1345,15 @@
     </div>
 
     <div class="gallery-grid">
-      <div class="gallery-item g-large reveal" data-full="fotos/WhatsApp%20Image%202026-05-10%20at%2019.49.36%20(4).jpeg">
+      <div class="gallery-item g-large reveal" data-full="fotos/WhatsApp%20Image%202026-05-12%20at%2007.57.11.jpeg">
+        <img src="fotos/WhatsApp%20Image%202026-05-12%20at%2007.57.11.jpeg" alt="Miguel Multiverso - novo registro" loading="lazy" />
+        <div class="gallery-item-caption">
+          <span class="gallery-item-tag">✨ Novo</span>
+          <div class="gallery-item-title">Registro mais recente</div>
+        </div>
+      </div>
+
+      <div class="gallery-item g-medium reveal" data-full="fotos/WhatsApp%20Image%202026-05-10%20at%2019.49.36%20(4).jpeg">
         <img src="fotos/WhatsApp%20Image%202026-05-10%20at%2019.49.36%20(4).jpeg" alt="Miguel no topo do pódio Copa Cotia" loading="lazy" />
         <div class="gallery-item-caption">
           <span class="gallery-item-tag">🥇 Pódio nº 1</span>
@@ -1429,8 +1447,8 @@
 
     <div class="videos-grid">
       <div class="video-card reveal">
-        <video controls preload="metadata" playsinline poster="fotos/WhatsApp%20Image%202026-05-10%20at%2019.49.33.jpeg">
-          <source src="videos/WhatsApp%20Video%202026-05-10%20at%2019.49.32.mp4" type="video/mp4" />
+        <video controls preload="metadata" playsinline poster="fotos/WhatsApp%20Image%202026-05-12%20at%2007.57.11.jpeg">
+          <source src="videos/WhatsApp%20Video%202026-05-12%20at%2006.32.40.mp4" type="video/mp4" />
         </video>
         <div class="video-card-info">
           <span class="video-card-tag">⚡ Competição</span>
@@ -1440,30 +1458,19 @@
       </div>
 
       <div class="video-card reveal">
-        <video controls preload="metadata" playsinline poster="fotos/WhatsApp%20Image%202026-05-10%20at%2019.49.36%20(4).jpeg">
-          <source src="videos/WhatsApp%20Video%202026-05-10%20at%2019.58.05.mp4" type="video/mp4" />
-        </video>
-        <div class="video-card-info">
-          <span class="video-card-tag">🥇 Pódio</span>
-          <div class="video-card-title">Momento da vitória</div>
-          <div class="video-card-desc">Comemoração no topo do pódio.</div>
-        </div>
-      </div>
-
-      <div class="video-card reveal">
-        <video controls preload="metadata" playsinline poster="fotos/WhatsApp%20Image%202026-05-10%20at%2019.49.32.jpeg">
-          <source src="videos/WhatsApp%20Video%202026-05-10%20at%2020.03.44.mp4" type="video/mp4" />
+        <video controls preload="metadata" playsinline poster="fotos/WhatsApp%20Image%202026-05-12%20at%2007.57.11.jpeg">
+          <source src="videos/WhatsApp%20Video%202026-05-12%20at%2006.32.58.mp4" type="video/mp4" />
         </video>
         <div class="video-card-info">
           <span class="video-card-tag">🥋 Treino</span>
-          <div class="video-card-title">Rotina de treinamento</div>
-          <div class="video-card-desc">Bastidores da preparação diária.</div>
+          <div class="video-card-title">Foco no tatame</div>
+          <div class="video-card-desc">Preparação técnica e disciplina diária.</div>
         </div>
       </div>
 
       <div class="video-card reveal">
-        <video controls preload="metadata" playsinline poster="fotos/WhatsApp%20Image%202026-05-10%20at%2019.49.25.jpeg">
-          <source src="videos/WhatsApp%20Video%202026-05-10%20at%2019.53.15%20(1).mp4" type="video/mp4" />
+        <video controls preload="metadata" playsinline poster="fotos/WhatsApp%20Image%202026-05-12%20at%2007.57.11.jpeg">
+          <source src="videos/WhatsApp%20Video%202026-05-12%20at%2006.33.30.mp4" type="video/mp4" />
         </video>
         <div class="video-card-info">
           <span class="video-card-tag">🏆 Evento</span>
@@ -1473,24 +1480,24 @@
       </div>
 
       <div class="video-card reveal">
-        <video controls preload="metadata" playsinline poster="fotos/WhatsApp%20Image%202026-05-10%20at%2019.49.39%20(2).jpeg">
-          <source src="videos/WhatsApp%20Video%202026-05-10%20at%2019.58.08.mp4" type="video/mp4" />
+        <video controls preload="metadata" playsinline poster="fotos/WhatsApp%20Image%202026-05-12%20at%2007.57.11.jpeg">
+          <source src="videos/WhatsApp%20Video%202026-05-12%20at%2006.33.31.mp4" type="video/mp4" />
         </video>
         <div class="video-card-info">
-          <span class="video-card-tag">📱 Bastidores</span>
-          <div class="video-card-title">Com a equipe MB</div>
-          <div class="video-card-desc">Família e equipe que dão suporte.</div>
+          <span class="video-card-tag">🥇 Pódio</span>
+          <div class="video-card-title">Momento da vitória</div>
+          <div class="video-card-desc">Comemoração no topo do pódio.</div>
         </div>
       </div>
 
       <div class="video-card reveal">
-        <video controls preload="metadata" playsinline poster="fotos/WhatsApp%20Image%202026-05-11%20at%2004.33.40.jpeg">
-          <source src="videos/WhatsApp%20Video%202026-05-11%20at%2004.33.40.mp4" type="video/mp4" />
+        <video controls preload="metadata" playsinline poster="fotos/WhatsApp%20Image%202026-05-12%20at%2007.57.11.jpeg">
+          <source src="videos/WhatsApp%20Video%202026-05-12%20at%2006.33.31%20(1).mp4" type="video/mp4" />
         </video>
         <div class="video-card-info">
-          <span class="video-card-tag">🎓 Graduação</span>
-          <div class="video-card-title">Cerimônia de graduação</div>
-          <div class="video-card-desc">Evolução nas faixas do BJJ.</div>
+          <span class="video-card-tag">📱 Bastidores</span>
+          <div class="video-card-title">Bastidores da jornada</div>
+          <div class="video-card-desc">Família e equipe que dão suporte.</div>
         </div>
       </div>
     </div>
