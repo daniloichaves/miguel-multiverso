@@ -1,6 +1,8 @@
 # 🥋 Miguel “Multiverso” Chagas dos Santos
 
-**Idade:** 14 anos  
+**Idade:** 12 anos [10/01/2014]  
+**Tempo de Jiu-Jitsu:** 1 ano  
+**Faixa:** Cinza  
 **Modalidade:** Jiu-Jitsu Brasileiro  
 **Nickname:** Multiverso  
 **Instagram:** (https://www.instagram.com/miguel_multiverso?igsh=YXZvcG01MmlkcHk0)  
@@ -11,7 +13,7 @@
 
 ## 👦 Sobre o Atleta
 
-Miguel “Multiverso” Chagas dos Santos é um jovem atleta de 14 anos dedicado ao Jiu-Jitsu Brasileiro, esporte que iniciou ainda na infância com o incentivo e acompanhamento constante de seu pai.
+Miguel "Multiverso" Chagas dos Santos é um jovem atleta de 12 anos dedicado ao Jiu-Jitsu Brasileiro, esporte que iniciou há 1 ano com o incentivo e acompanhamento constante de seu pai.
 
 Desde cedo, Miguel demonstra características que o diferenciam: disciplina, foco, respeito e uma mentalidade altamente competitiva. Sua rotina é equilibrada entre estudos e treinos intensivos, sempre buscando evolução técnica e pessoal.
 
@@ -42,6 +44,32 @@ Miguel possui metas claras e ambiciosas dentro do esporte:
 - Evoluir continuamente nas graduações do jiu-jitsu  
 - Construir uma carreira sólida como atleta profissional  
 - Representar o Brasil em competições de alto nível  
+
+---
+
+## 🏋️ Rotina de Treinamento
+
+Miguel segue uma rotina estruturada de treinos, equilibrando técnica, condicionamento físico e preparo mental:
+
+- Treinos 4-5x por semana  
+- Sessões de técnica fundamental  
+- Trabalho de posição  
+- Sparring controlado  
+- Condicionamento físico complementar  
+- Alongamento e recuperação  
+
+---
+
+## 🎭 Ação na Arena
+
+Na arena de competição, Miguel demonstra:
+
+- Técnica apurada para sua categoria  
+- Agressividade controlada  
+- Boa defesa e passagem de guarda  
+- Mentalidade de vencedor  
+- Capacidade de adaptação conforme o adversário  
+- Foco e concentração durante as lutas  
 
 ---
 
